@@ -1,0 +1,2 @@
+Bu bir txt dosyasıdır.
+Fetch api ile görülecek.

@@ -24,7 +24,9 @@ function Hooks() {
 
   //* - Array destructring ile useState'in dondurdukeri ayrıstiriliyor.
   //* - sayac'a (state) baslangicte 0 degeri ataniyor.
+
   const [sayac, setSayac] = useState(0);
+
   const sn = setInterval(arttir, 1000);
 
   function arttir() {
@@ -44,15 +46,15 @@ function Hooks() {
 
   return (
     <div className="container text-center mt-4">
-      <h1>Sayac : {sayac}</h1>
+      <h1>Sayac:{sayac}</h1>
       <button className="btn btn-outline-danger" onClick={arttir}>
-        Arttır
+        Arttir
       </button>
       <button className="btn btn-outline-success" onClick={azalt}>
         Azalt
       </button>
       <button className="btn btn-outline-dark" onClick={sifirla}>
-        Sıfırla
+        Sifirla
       </button>
     </div>
   );

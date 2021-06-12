@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import ClassComponent from "./ClassComponent";
 import Events from "./Events";
+import HookOrnek from "./HookOrnek";
 import Hooks from "./Hooks";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <ClassComponent sayi="10" />
       <ClassComponent sayi="100" />
       <Hooks />
+      <HookOrnek />
     </div>
   );
 }
